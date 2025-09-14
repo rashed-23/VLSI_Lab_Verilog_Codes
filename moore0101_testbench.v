@@ -1,6 +1,6 @@
 `timescale 1ns/1ps
 
-module tb_moore1010;
+module tb_moore0101;
 
   // Inputs to DUT
   reg clock;
@@ -11,7 +11,7 @@ module tb_moore1010;
   wire out;
 
   // Instantiate the design under test (DUT)
-  moore1010 dut (
+  moore0101 dut (
     .clock(clock),
     .reset(reset),
     .in(in),
@@ -61,3 +61,4 @@ module tb_moore1010;
   end
 
 endmodule
+
