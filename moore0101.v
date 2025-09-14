@@ -1,4 +1,4 @@
-module moore1010(clock,reset,in,out);
+module moore0101(clock,reset,in,out);
 input clock,reset,in;
 output reg out;
 parameter [2:0] s1=3'b000, s2=3'b001, s3=3'b010,s4=3'b011,s5=3'b100;
@@ -37,6 +37,7 @@ else y<=Y;
 end
 
 endmodule
+
 
 
 
