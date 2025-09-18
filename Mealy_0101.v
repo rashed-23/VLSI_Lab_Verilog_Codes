@@ -17,7 +17,7 @@ default Y=2'bxx;
 endcase
 end
 begin // Output Logic
-out<=(y==D)&in;
+out=(y==D)&in;
 end
 end
 
@@ -30,5 +30,6 @@ y<=Y;
 end
 
 endmodule
+
 
 
